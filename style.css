@@ -1,0 +1,57 @@
+.head-line{margin-top:1em;
+            display:flex;
+            justify-content: center;
+}
+
+.head-line svg{width:430px;}
+
+/* .wide-menus{display:flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       margin-top:1em;
+       border-bottom:4px double black;
+       border-top:1px solid rgb(235, 235, 235);} 
+       이걸로 새로 메뉴 따로 만들자
+       
+       */
+
+.side-menu{   height:100%;
+              width:0px;
+              position:fixed;
+              z-index:1;
+              top:0px;
+              left:0px;
+              background-color: burlywood;
+              padding-top:60px;
+              transition:0.5s;
+              overflow-x: hidden;
+              }
+
+.menus{margin-top:1em;
+       border-bottom:4px double black;
+       border-top:1px solid rgb(235, 235, 235);
+       display: flex;
+       flex-direction: column;
+       align-items: center;}
+
+.closebtn{position: absolute;
+          top: 0;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+          border: none;
+          background: none;}
+
+
+.menus button{background:none;
+              border:none;
+              margin:5px;
+}
+
+.menus button:hover{background-color: beige;}
+
+.news-img-size{max-width:100%;
+              max-height:350px;
+}
+
+.news{border-bottom: 2px solid black;}
